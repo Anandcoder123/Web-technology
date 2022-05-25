@@ -1,0 +1,269 @@
+<html>
+    <head>
+        <title>Slide show</title>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-color:aliceblue;
+            }
+            .box{
+                height: 150px;
+                width: 100%;
+                background-color: rgb(200, 244, 244);
+                font-size: 40px;
+                font-weight: bold;
+                color:black;
+                box-shadow: 0px 0px 20px black;
+            }
+            .logo{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                background-image: url("logo.jpg");
+                background-size: cover;
+                border:2px solid black;
+                float: left;
+                margin: 20px;
+            }
+            .box3{
+                height: 300px;
+                width:80%;
+                background-color: aliceblue;
+                margin: 10px auto;
+            }
+            .box33{
+                min-height: 250px;
+                width: 250px;
+                background-color:rgb(143, 176, 204);
+                border-radius:50%;
+                float: left;
+                margin: 40px 70px;
+                text-align: center;
+                font-size: 30px;
+                transition: 0.7s;
+
+            }
+            .box33:hover{
+                text-align: center;
+                font-size: 40px;
+                font-weight: bold;
+                color: black;
+                background-color: rgb(69, 164, 247);
+                border-radius: 10px;
+            }
+            #int{
+                height: 35px;
+                width: 40%;
+                }
+            .form{
+                min-height: 600px;
+                width: 80%;
+                background-color: rgb(140, 187, 229);
+                box-shadow: 0px 0px 10px black;
+            }
+            #input{
+                height: 40px;
+                width: 80%;
+                margin-right: 15%;
+            }
+            #submit{
+                height: 40px;
+                width: 80%;
+                background-color: green;
+                border-radius: 5px;
+                font-size: 20px;
+                text-align: center;
+                color: white;
+                margin-right: 15%;
+            }
+            #submit:hover{
+                background-color: red;
+            }
+            .cont{
+                min-height: 800px;
+                width: 80%;
+                background-color: aqua;
+                font-size: 20px;
+                margin: 50px auto;
+                text-align: justify;
+                text-indent: 100px;
+                word-spacing: 10px;
+                line-height: 30px;
+
+            }
+            .marqu{
+                height:80px;
+                width: 80%;
+                background-color: rgb(12, 12, 12);
+                margin: 30px auto;
+            }
+            .footer{
+                height: 200px;
+                width: 100%;
+                background-color: black;
+                color: white;
+                font-size: 20px;            
+            }
+
+        </style>
+    </head>
+    
+    <body onload="changeImage()">
+        <script>
+            var a=["weblogo.jpg","weblogo22.png","weblogo33.jpg"];
+            var i=0;
+            function changeImage(){
+                    slide.src=a[i];
+                    i++;
+                    if(i>2)
+                    i=0;
+                    window.setTimeout("changeImage()",3000);
+            }
+        </script>
+        <div class="box"><div class="logo"></div>
+               <br>Arudan Technology Pvt.Ltd.<br>
+               <font size="5">iics college</font>    
+               <!---
+               &nbsp;<input type="text"Placeholder="Search.."id="int"><input type="button"value="click"style="height: 35px;">
+               -->
+        </div>
+        <center>
+        <img id="slide"name="slide"width="100%"height="450px"border="1">
+        
+         <div class="box3">
+               
+            <a href="#About"name="Top"><div class="box33"><br><br>About Us</div></a>
+            <a href="#Training"name="Top"><div class="box33"><br><br>Training</div></a>
+            <a href="#Enquiry"name="Top"><div class="box33"><br><br>Enquiry</div></a>
+         </div>
+          
+
+        <br><br>
+        <div class="form">
+            <br>
+            <form>
+           <h1 align="left">&nbsp;&nbsp;&nbsp;Cantact Us</h1>
+           <input type="text"id="input"placeholder="Name"><br><br>
+           <input type="email"id="input"placeholder="Email"><br><br>
+           <input type="number"id="input"placeholder="Mobile Number"><br><br>
+           <input type="text"id="input"placeholder="Address"><br><br>
+           <input type="file"id="input"placeholder="file"><br><br>
+           <select id="input">
+               <option>Country</option>
+               <option>America USA</option>
+               <option>British</option>
+               <option>Fransh</option>
+               <option>India</option>
+
+           </select><br><br>
+           <input type="text"id="input"placeholder="OTP"><br><br>
+           <input type="submit"id="submit">
+          </form>
+        </div>
+        </center>
+        <br><br>
+        <div class="cont"><br><br>
+        <a name="about"><h1>About Us</h1></a>
+        <p>
+        Start Your Business With Shopify. Sign Up For Our Annual Plan And Get A 10% Discount. Shopify® Is an Easy-To-Use Online Store Builder Trusted by Millions of Stores. Shop Pay at Checkout. Drop Shipping Integration. Unlimited 24/7 Support. Fraud Prevention. Fully Hosted.
+        Most people who are just starting out make the mistake of looking for a product first, and a market second.
+
+        To boost your chances of success, start with a market. The trick is to find a group of people who are searching for a solution to a problem, but not finding many results. The internet makes this kind of market research easy:
+        
+        Visit online forums to see what questions people ask and what problems they're trying to solve.
+        Do keyword research to find keywords that a lot of people are searching, but don't have a ton of competition with other sites.
+        Check out your potential competitors by visiting their sites and taking note of what they're doing to fill the demand. Then you can use what you've learned and create a product for a market that already exists -- and do it better than the competition.
+        Related: 8 Great Time-Tracking Apps for Freelancers
+        
+        Design and build your website.
+        Once you've got your market and product, and you've nailed down your selling process, now you're ready for your small-business web design. Remember to keep it simple. You have fewer than five seconds to grab someone's attention -- otherwise, they're gone, never to be seen again. Some important tips to keep in mind:
+        
+        Choose one or two plain fonts on a white background.
+        Make your navigation clear and simple, and the same on every page.
+        Only use graphics, audio or video if they enhance your message.
+        Include an opt-in offer so you can collect e-mail addresses.
+        Make it easy to buy -- no more than two clicks between potential customer and checkout.
+        Your website is your online storefront, so make it customer-friendly     
+        <br>
+        <a href="#Top"><h2>Top</h2></a>  
+        </p>
+        <br><br>
+        <a name="Training"><h1>Training</h1></a>
+        <p>
+            Start Your Business With Shopify. Sign Up For Our Annual Plan And Get A 10% Discount. Shopify® Is an Easy-To-Use Online Store Builder Trusted by Millions of Stores. Shop Pay at Checkout. Drop Shipping Integration. Unlimited 24/7 Support. Fraud Prevention. Fully Hosted.
+            Most people who are just starting out make the mistake of looking for a product first, and a market second.
+    
+            To boost your chances of success, start with a market. The trick is to find a group of people who are searching for a solution to a problem, but not finding many results. The internet makes this kind of market research easy:
+            
+            Visit online forums to see what questions people ask and what problems they're trying to solve.
+            Do keyword research to find keywords that a lot of people are searching, but don't have a ton of competition with other sites.
+            Check out your potential competitors by visiting their sites and taking note of what they're doing to fill the demand. Then you can use what you've learned and create a product for a market that already exists -- and do it better than the competition.
+            Related: 8 Great Time-Tracking Apps for Freelancers
+            
+            Design and build your website.
+            Once you've got your market and product, and you've nailed down your selling process, now you're ready for your small-business web design. Remember to keep it simple. You have fewer than five seconds to grab someone's attention -- otherwise, they're gone, never to be seen again. Some important tips to keep in mind:
+            
+            Choose one or two plain fonts on a white background.
+            Make your navigation clear and simple, and the same on every page.
+            Only use graphics, audio or video if they enhance your message.
+            Include an opt-in offer so you can collect e-mail addresses.
+            Make it easy to buy -- no more than two clicks between potential customer and checkout.
+            Your website is your online storefront, so make it customer-friendly        
+            </p>
+            <a href="#Top"><h2>Top</h2></a>
+            <br><br>
+            <a name="Enquiry"><h1>Enquiry</h1></a>
+            <p>
+                Start Your Business With Shopify. Sign Up For Our Annual Plan And Get A 10% Discount. Shopify® Is an Easy-To-Use Online Store Builder Trusted by Millions of Stores. Shop Pay at Checkout. Drop Shipping Integration. Unlimited 24/7 Support. Fraud Prevention. Fully Hosted.
+                Most people who are just starting out make the mistake of looking for a product first, and a market second.
+        
+                To boost your chances of success, start with a market. The trick is to find a group of people who are searching for a solution to a problem, but not finding many results. The internet makes this kind of market research easy:
+                
+                Visit online forums to see what questions people ask and what problems they're trying to solve.
+                Do keyword research to find keywords that a lot of people are searching, but don't have a ton of competition with other sites.
+                Check out your potential competitors by visiting their sites and taking note of what they're doing to fill the demand. Then you can use what you've learned and create a product for a market that already exists -- and do it better than the competition.
+                Related: 8 Great Time-Tracking Apps for Freelancers
+                
+                Design and build your website.
+                Once you've got your market and product, and you've nailed down your selling process, now you're ready for your small-business web design. Remember to keep it simple. You have fewer than five seconds to grab someone's attention -- otherwise, they're gone, never to be seen again. Some important tips to keep in mind:
+                
+                Choose one or two plain fonts on a white background.
+                Make your navigation clear and simple, and the same on every page.
+                Only use graphics, audio or video if they enhance your message.
+                Include an opt-in offer so you can collect e-mail addresses.
+                Make it easy to buy -- no more than two clicks between potential customer and checkout.
+                Your website is your online storefront, so make it customer-friendly        
+                </p>
+                <a href="#Top"><h2>Top</h2></a>
+        </div>
+        <div class="marqu"><br>
+            <center>
+            <marquee width="60%"style="font-size:20px;color:white;"> Once you've got your market and product, and you've nailed down your selling process,
+                 now you're ready for your small-business web design</marquee>
+                 </center>
+        </div>
+        <div class="footer">
+            <center>
+                <table>
+                    <tr>
+                        <td height="40px"width="200px"><font color="white">Developer</font></td>
+                        <td height="40px"width="200px"><font color="white">Anand Sahu</font></td>
+                    </tr>
+                    <tr>
+                        <td height="40px"width="200px"><font color="white">Education</font></td>
+                        <td height="40px"width="200px"><font color="white">BCA From MGKVP Univesity</font></td>
+                    </tr>
+                    <tr>
+                        <td height="40px"width="100px"><font color="white">My Website</font></td>
+                        <td height="40px"width="100px"><font color="white">Anandcoder123</font></td>
+                    </tr>
+                    <tr>
+                        <td height="40px"width="100px"><font color="white">Mail</font></td>
+                        <td height="40px"width="100px"><font color="white"><a href="mailto:iics@gmail.com">iics@gmail.com</a></font></td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+    </body>
+</html>
